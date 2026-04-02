@@ -32,7 +32,10 @@ export default {
             extract: "main.css",
             minimize: true,
         }),
-        visualizer(),
+        visualizer({
+            filename: "coverage/stats.html",
+            open: true,
+        }),
         terser(),
     ],
     external: ["react", "react-dom"],

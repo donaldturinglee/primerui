@@ -302,4 +302,6 @@ storybook-static/
 .ionide
 
 ### Primer UI ###
+build/
+coverage/
 !src/components/icon/
