@@ -1,5 +1,5 @@
 {
-    "name": "primerui",
+    "name": "@primerui/react",
     "version": "0.0.1",
     "description": "",
     "main": "build/main.cjs.js",
